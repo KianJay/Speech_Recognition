@@ -1,0 +1,4 @@
+myproject/settings.py
+myapp/models/*
+myapp/speaker_5/*
+terraform/*
