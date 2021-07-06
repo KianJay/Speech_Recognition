@@ -2,7 +2,7 @@
 ## Executive Summary
 This is the final report of the project: build a speaker recognition and mood analysis system. The purpose of the system is to find a speaker in a given dataset and performing text-independent mood analysis. We employed AWS services, JSON, Python (an open-source programming language), and other tools. Initially, we were planning to use a couple of AWS services for machine learning, but we decided to use Colab after all. Fast Fourier Transform (FFT) is used for speaker recognition and the result of each speaker shows the difference in the frequency-domain representation. The accuracy in both speaker recognition and mood analysis is high 0.95% and 0.89% respectively. There are some of the limitations: only 30-second .wav format audio files are available and the model for speaker recognition is trained with 1-second audio files and when it comes the different length of audio files, the model often fails to predict the correct speaker, and the sound of the audio files converted from video files is not equal. The results of FFT are not equal even though the speaker is the same. This leads the model to the wrong prediction. For the recommendations, the system should take different types and length of audio files and normalise audio files used for training the model to produce the same results of FFT and to improve the prediction of the model. 
 
-### Exclustions
+### Exclusions
 - Recognise other people's voices except voices in a dataset
 - Currently Only five speakers available: Benjamin Netanyahu,Jens, Julia, Margare and Nelson
 - Accept people's voices in real time
