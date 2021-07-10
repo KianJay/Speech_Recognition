@@ -13,7 +13,7 @@ This is the final report of the project: build a speaker recognition and mood an
 - Display the speaker, speech and emotion all together
 ### Constraints
 - Accept only 30 sec WAV file formats 
-- Enligsh
+- English
 - Two emotion: Positive and Negative 
 ### Data Pre-Processing
 After the selected audio files were downloaded, we used a video editor software Movavi Video Suite 18 to convert the sample rate and download the outputs audio files removed unnecessary sounds, such as applause and silence without a speaker’s voice. the Benjamin_Netanyau.wav (565MB) file edited and containing all the five video files. We conducted the same process for the other four speakers’ files.  
