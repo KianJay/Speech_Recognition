@@ -17,7 +17,7 @@ This is the final report of the project: build a speaker recognition and mood an
 - Two emotion: Positive and Negative 
 ### Data Pre-Processing
 After the selected audio files were downloaded, we used a video editor software Movavi Video Suite 18 to convert the sample rate and download the outputs audio files removed unnecessary sounds, such as applause and silence without a speaker’s voice. the Benjamin_Netanyau.wav (565MB) file edited and containing all the five video files. We conducted the same process for the other four speakers’ files.  
-The length of each audio file is about 2-hour long. Before divided into 1-second-long audio files, we firstly checked how many 1-second-long audio files can be generated with the soundfile (sf) library with the code shown in Fig 9 and 10. After the calculation, the smallest number in the number of divided files is printed out and this number is used later to generate the number of audio files in Fig 11. For example, the smallest number , in this case, is 7752 from Julia_Gillard.
+The length of each audio file is about 2-hour long. Before divided into 1-second-long audio files, we firstly checked how many 1-second-long audio files can be generated with the soundfile (sf) library with the code shown. After the calculation, the smallest number in the number of divided files is printed out and this number is used later to generate the number of audio files. For example, the smallest number , in this case, is 7752 from Julia_Gillard.
 
 ## Stacks
 - AWS
