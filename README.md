@@ -4,7 +4,7 @@ This is the final report of the project: build a speaker recognition and mood an
 
 ### Exclusions
 - Recognise other people's voices except voices in a dataset
-- Currently Only five speakers available: Benjamin Netanyahu,Jens, Julia, Margare and Nelson
+- Currently trained five speakers available: Benjamin Netanyahu,Jens, Julia, Margare and Nelson
 - Accept people's voices in real time
 ### Assumptions
 - Speaker recognition: listening to the speech and find the speaker
